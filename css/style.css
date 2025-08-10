@@ -27,7 +27,7 @@ body.SDI  {
   color: #fb00ff;
   
   
-  background: linear-gradient(to bottom, transparent, transparent, #933202);
+  background: linear-gradient(to bottom, transparent, transparent, #3f1600);
   background-color: #000000;
   
 }
@@ -165,7 +165,7 @@ body.Blackjack  {
 /*Hero area Decomposition*/
 .hero_area_Decomposition {
   height: 100vh;
-  background-image: url(../images/ArteSteam.png);
+  /*background-image: url(../images/ArteSteam.png);*/
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -201,15 +201,19 @@ body.Blackjack  {
 }
 /*End Hero area Decomposition*/
 
+/*Arte 1 da tela do SDI*/
 
 /*Hero area SDI*/
-.hero_area_SDI {
+.hero_area_SDI2 {
   height: 100vh;
-  background-image: url(../images/ArteSteam.png);
+  background-image: url(../images/WallpaperSDI.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+
+
+
 
 
 @media (max-width: 768px) {
@@ -245,7 +249,7 @@ body.Blackjack  {
 /*Hero area Ashes Of Jupiter*/
 .hero_area_ashes {
   height: 100vh;
-  background-image: url(../images/ArteSteam.png);
+  /*background-image: url(../images/ArteSteam.png);*/
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -285,7 +289,7 @@ body.Blackjack  {
 
 .hero_area_alter_ego {
   height: 100vh;
-  background-image: url(../images/ArteSteam.png);
+  /*background-image: url(../images/ArteSteam.png);*/
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -327,7 +331,7 @@ body.Blackjack  {
 
 .hero_area_blackjack {
   height: 100vh;
-  background-image: url(../images/ArteSteam.png);
+  /*background-image: url(../images/ArteSteam.png);*/
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -741,13 +745,114 @@ a:focus {
   color: #fb00ff;
 }
 
+/*Wallpapers */
+
+/*PÁGINA SDI WALLPAPERS */
+
+/*Arte 2 da tela do SDI*/
+
+ .SDI_Container1 {
+  padding: 100px; ;
+  background-image: url(../images/WallpaperSDI_PersonagemV3.png);
+  background-size: cover;
+  background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
+}
+
+
+.SDI_Container2 {
+  position: relative;
+  padding: 100px;
+  overflow: hidden; /* impede que o vídeo transborde */
+}
+
+
+
+
+/*Botao see more dos jogos V2*/
+
+..botao_download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+
+.botao_download a{
+  display: inline-block;
+  padding: 10px 100px;
+  background-color: #000000;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  color: #ffffff;
+    -webkit-box-shadow: 0 0 35px 0 rgba(247, 79, 79, 0.7);
+          box-shadow: 0 0 5px 0 rgba(212, 0, 255, 0.7);
+}
+
+.botao_download a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* coloca atrás do conteúdo */
+}
+
+.video-background iframe {
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* impede clique no vídeo */
+}
+
+
+
+
+
+
+
+
+
 .about_section .about_container {
+  padding: 45px;
+  background-image: url(../images/about-4.png);
+  background-size: cover;
+  background-color: #fb00ff00
+}
+
+
+.about_section .about_contact2 {
+  padding: 45px;
+  background-image: url(../images/about-7.png);
+  /*background-image: url(../images/teste.png);*/
+  background-size: cover;
+  background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
+}
+
+.about_section .about_about {
+  padding: 45px;
+  background-image: url(../images/about-5.png);
+  /*background-image: url(../images/teste.png);*/
+  background-size: cover;
+  background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
+}
+
+.about_section .about_index {
   padding: 45px;
   background-image: url(../images/about-4.png);
   /*background-image: url(../images/teste.png);*/
   background-size: cover;
   background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
 }
+
+
 
 .about_section .about_container .detail-box {
   display: -webkit-box;
@@ -893,6 +998,9 @@ a:focus {
     -webkit-box-shadow: 0 0 35px 0 rgba(79, 180, 247, 0.7);
           box-shadow: 0 0 5px 0 rgba(79, 199, 247, 0.7);
 }
+
+
+
 
 .class_section .class_box-container .box .btn-box a:hover {
   background-color: #ffffff;
@@ -1046,7 +1154,7 @@ a:focus {
   color: #ffffff;
 }
 
-.client_section .heading_container {
+.client_section .heading_container{
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
