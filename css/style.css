@@ -96,7 +96,7 @@ body.Blackjack  {
   padding-bottom: 120px;
 }
 
-.heading_container {
+.aling_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,7 +111,7 @@ body.Blackjack  {
   padding-bottom: 10px;
 }
 
-.heading_container h2 {
+.aling_container h2 {
   font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
