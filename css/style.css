@@ -165,7 +165,7 @@ body.Blackjack  {
 /*Hero area Decomposition*/
 .hero_area_Decomposition {
   height: 100vh;
-  /*background-image: url(../images/ArteSteam.png);*/
+  background-image: url(../images/ArteSteam.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
