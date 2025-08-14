@@ -1,13 +1,18 @@
-body { /*Css do body básico da maioria dos sites*/
-  font-family: "Poppins", sans-serif;
-  color: #fb00ff;
-  
-  
-  background: linear-gradient(to bottom, transparent, transparent, #0a5a93);
-  background-color: #000000;
-  
+
+
+@font-face {
+  font-family: 'VanillaRavioli';
+  src: url('../fonts/VanillaRavioli_Demo.woff2') format('woff2'),
+       url('../fonts/VanillaRavioli_Demo.woff') format('woff'),
+       url('../fonts/VanillaRavioli_Demo.ttf') format('truetype');
+  font-weight: 400;   /* peso real do arquivo */
+  font-style: normal;
+  font-display: swap;
 }
 
+.FonteEspecial {
+  font-family: 'VanillaRavioli', sans-serif;
+}
 
 /*CSS apenas para o gradiente do body da pagina Decomposition*/
 body.Decomposition  {
@@ -19,6 +24,19 @@ body.Decomposition  {
   background-color: #000000;
   
 }
+
+
+body { /*Css do body básico da maioria dos sites*/
+  font-family: "Poppins", sans-serif;
+  color: #fb00ff;
+  
+  
+  background: linear-gradient(to bottom, transparent, transparent, #0a5a93);
+  background-color: #000000;
+  
+}
+
+
 
 /*CSS apenas para o gradiente do body da pagina SDI - Sinfonia Del Inferno*/
 
@@ -68,6 +86,8 @@ body.Blackjack  {
   background-color: #000000;
   
 }
+
+
 
 
 
@@ -165,7 +185,7 @@ body.Blackjack  {
 /*Hero area Decomposition*/
 .hero_area_Decomposition {
   height: 100vh;
-  background-image: url(../images/ArteSteam.png);
+  background-image: url(../images/WallpaperDecomposition.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -566,13 +586,14 @@ a:focus {
 }
 
 .slider_section .slider_heading h2 {
+  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 8rem;
-  text-transform: uppercase;
+  font-size: 12rem;
+
   text-orientation: upright;
-  font-weight: bold;
+
   background: linear-gradient(to top, #0379f0 , black 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -838,7 +859,7 @@ a:focus {
 
 .about_section .about_about {
   padding: 45px;
-  background-image: url(../images/about-5.png);
+  background-image: url(../images/EdiçãoSaphireV4.png);
   /*background-image: url(../images/teste.png);*/
   background-size: cover;
   background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
