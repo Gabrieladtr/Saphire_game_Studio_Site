@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: 'VanillaRavioli';
-  src: url('../fonts/VanillaRavioli_Demo.woff2') format('woff2'),
-       url('../fonts/VanillaRavioli_Demo.woff') format('woff'),
-       url('../fonts/VanillaRavioli_Demo.ttf') format('truetype');
+  src: url('../fonts/vanillaravioli_demo.woff2') format('woff2'),
+       url('../fonts/vanillaravioli_demo.woff') format('woff'),
+       url('../fonts/vanillaravioli_demo.ttf') format('truetype');
   font-weight: 400;   /* peso real do arquivo */
   font-style: normal;
   font-display: swap;
