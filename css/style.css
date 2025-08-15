@@ -766,11 +766,17 @@ a:focus {
   color: #fb00ff;
 }
 
+#Titulo_decomposition {
+  color: #ff0000;
+}
+
+
 /*Wallpapers */
 
 /*PÁGINA SDI WALLPAPERS */
 
 /*Arte 2 da tela do SDI*/
+
 
  .SDI_Container1 {
   padding: 100px; ;
@@ -778,6 +784,16 @@ a:focus {
   background-size: cover;
   background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
 }
+
+ .Decomposition_Container1 {
+  padding: 100px; ;
+  background-image: url(../images/SimbologiaV4.png);
+  background-size: cover;
+  background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
+}
+
+
+
 
 
 .SDI_Container2 {
@@ -791,7 +807,7 @@ a:focus {
 
 /*Botao see more dos jogos V2*/
 
-..botao_download {
+.botao_download {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -814,6 +830,34 @@ a:focus {
   background-color: #ffffff;
   color: #000000;
 }
+
+/*Botao 2*/
+.botao_download_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 450px;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+
+.botao_download_2 a{
+  display: inline-block;
+  padding: 10px 100px;
+  background-color: #000000;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  color: #ffffff;
+    -webkit-box-shadow: 0 0 35px 0 rgba(255, 0, 0, 0.7);
+          box-shadow: 0 0 5px 0 rgba(255, 0, 0, 0.7);
+}
+
+.botao_download_2 a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 
 
 
