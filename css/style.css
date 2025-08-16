@@ -5,8 +5,8 @@
   src: 
     url('../fonts/vanillaravioli.ttf') format('truetype'),
     url('../fonts/vanillaravioli.woff2') format('woff2'),
-    url('../fonts/vanillaravioli.woff') format('woff');
-
+       url('../fonts/vanillaravioli.woff') format('woff');
+       
   font-weight: 400;   /* peso real do arquivo */
   font-style: normal;
   font-display: swap;
@@ -93,6 +93,8 @@ body.Blackjack  {
 
 
 
+
+
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -145,43 +147,8 @@ body.Blackjack  {
   color: #fb00ff;
 }
 
-/*header section*/
-.hero_area {
-  height: 100vh;
-  background-image: url(../images/wallpaper1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+/*header section Index*/
 
-
-@media (max-width: 768px) {
-  .hero_area {
-    font-size: 38px; /* ou até menos */
-    line-height: 1.2;
-    /*padding: 0 20px;  evita que fique colado nas bordas */
-    text-align: center;
-    background-position: center top;
-
-     background-image: url(../images/wallpaper1.jpg);
-  }
-}
-
-
-.hero_area::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 185%;
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(transparent), to(#251e1e));
-  background: linear-gradient(to top, transparent, transparent, #fb00ff);
-}
-
-.sub_page .hero_area {
-  height: auto;
-}
 
 
 /*Hero area Decomposition*/
@@ -222,6 +189,50 @@ body.Blackjack  {
   height: auto;
 }
 /*End Hero area Decomposition*/
+
+
+/*Hero Area Index*/
+.hero_index  {
+  height: 100vh;
+  background-image: url(../images/WallpaperPedrasV2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+@media (max-width: 768px) {
+  .hero_index {
+    font-size: 38px; /* ou até menos */
+    line-height: 1.2;
+    /*padding: 0 20px;  evita que fique colado nas bordas */
+    text-align: center;
+    background-position: center top;
+
+     background-image: url(../images/WallpaperPedrasV2.png);
+  }
+}
+
+
+.hero_index::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 185%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(transparent), to(#251e1e));
+  background: linear-gradient(to top, transparent, transparent, #fb00ff);
+}
+
+.sub_page .hero_index{
+  height: auto;
+}
+
+
+
+
+
 
 /*Arte 1 da tela do SDI*/
 
@@ -771,6 +782,20 @@ a:focus {
 #Titulo_decomposition {
   color: #ff0000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Wallpapers */
@@ -1444,3 +1469,14 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
