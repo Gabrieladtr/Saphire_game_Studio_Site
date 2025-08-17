@@ -199,9 +199,10 @@
   }
 
   .slider_section .slider_heading h2 {
-    font-size: 110px;
+    font-size: 80px;
     line-height: 2.5;
     word-break: break-word;
+
   }
 }
 

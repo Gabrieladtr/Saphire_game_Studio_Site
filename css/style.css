@@ -1084,8 +1084,9 @@ a:focus {
   border: 1px solid transparent;
   border-radius: 30px;
   color: #ffffff;
-  margin-left: 264px;
+  margin: auto;
   margin-bottom: 65px;
+  
   
     -webkit-box-shadow: 0 0 35px 0 rgba(79, 180, 247, 0.7);
           box-shadow: 0 0 5px 0 rgba(79, 199, 247, 0.7);
