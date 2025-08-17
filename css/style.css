@@ -231,9 +231,6 @@ body.Blackjack  {
 
 
 
-
-
-
 /*Arte 1 da tela do SDI*/
 
 /*Hero area SDI*/
@@ -246,21 +243,31 @@ body.Blackjack  {
 }
 
 
-
-
-
 @media (max-width: 768px) {
-  .hero_area_SDI {
-    font-size: 38px; /* ou até menos */
-    line-height: 1.2;
-    /*padding: 0 20px;  evita que fique colado nas bordas */
+  .hero_area_SDI2 {
+    font-size: 28px;
+    line-height: 1.3;
+    padding: 0 12px;
     text-align: center;
     background-position: center top;
-
-     background-image: url(../images/wallpaper1.jpg);
+    background-size: cover;
+    background-image: url(../images/SDI_Wallpaper_mobile.png);
+    min-height: 60vh;
   }
 }
 
+@media (max-width: 400px) {
+  .hero_area_SDI2 {
+    font-size: 28px;
+    line-height: 1.3;
+    padding: 0 12px;
+    text-align: center;
+    background-position: center top;
+    background-size: cover;
+    background-image: url(../images/SDI_Wallpaper_mobile_mobile.png);
+    min-height: 60vh;
+  }
+}
 
 .hero_area_SDI::before {
   content: "";
