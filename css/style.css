@@ -194,7 +194,7 @@ body.Blackjack  {
 /*Hero Area Index*/
 .hero_index  {
   height: 100vh;
-  background-image: url(../images/WallpaperPedrasV2.png);
+  background-image: url(../images/Wallpaper4.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -209,7 +209,7 @@ body.Blackjack  {
     text-align: center;
     background-position: center top;
 
-     background-image: url(../images/WallpaperPedrasV2.png);
+     background-image: url(../images/Wallpaper4.png);
   }
 }
 
@@ -1087,7 +1087,7 @@ a:focus {
   margin: auto;
   margin-bottom: 65px;
   
-  
+
     -webkit-box-shadow: 0 0 35px 0 rgba(79, 180, 247, 0.7);
           box-shadow: 0 0 5px 0 rgba(79, 199, 247, 0.7);
 }
