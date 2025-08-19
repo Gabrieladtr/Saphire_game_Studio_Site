@@ -169,7 +169,8 @@ body.Blackjack  {
     text-align: center;
     background-position: center top;
 
-     background-image: url(../images/wallpaper1.jpg);
+     background-image: url(../images/decomposition_coverV3.png);
+     
   }
 }
 
@@ -264,7 +265,7 @@ body.Blackjack  {
     text-align: center;
     background-position: center top;
     background-size: cover;
-    background-image: url(../images/SDI_Wallpaper_mobile_mobile.png);
+    background-image: url(../images/SDI_Wallpaper_mobile_mobileV5.png);
     min-height: 60vh;
   }
 }
@@ -812,12 +813,39 @@ a:focus {
 /*Arte 2 da tela do SDI*/
 
 
- .SDI_Container1 {
+ . {
   padding: 100px; ;
-  background-image: url(../images/WallpaperSDI_PersonagemV3.png);
+  
   background-size: cover;
   background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
 }
+
+@media (max-width: 450px) {
+  .SDI_Container1 {
+    background-image: url(../images/wallpaper1.jpg);
+    padding: 50px;
+  }
+}
+
+ .SDI_Container1 {
+  padding: 100px; ;
+  background-image: url(../images/WallpaperSDI_PersonagemV5.png);
+  background-size: cover;
+  background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
+}
+
+@media (max-width: 450px) {
+  .SDI_Container1 {
+    background-color: #fb00ff00;/*Aqui vai deixar transparente o fundo da sessao*/
+    background-image: none;
+    padding: 50px;
+  }
+}
+
+
+
+
+
 
  .Decomposition_Container1 {
   padding: 100px; ;
@@ -826,9 +854,15 @@ a:focus {
   background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
 }
 
+@media (max-width: 450px) {
+  .Decomposition_Container1 {
+    padding: 50px 50px 50px 50px; 
+    background-image: url(../images/SimbologiaV6.png);
+    margin: auto;
+    
 
-
-
+  }
+}
 
 .SDI_Container2 {
   position: relative;
@@ -873,6 +907,12 @@ a:focus {
   margin-top: 450px;
   -webkit-box-pack: center;
   justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .botao_download_2 {
+    margin-top: 0px;
+  }
 }
 
 
