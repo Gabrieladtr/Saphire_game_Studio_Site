@@ -991,6 +991,15 @@ a:focus {
   background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
 }
 
+.about_section .about_donation {
+  padding: 45px;
+  background-image: url(../images/ArteDonationSemFundo.png);
+  /*background-image: url(../images/teste.png);*/
+  background-size: cover;
+  background-color: #fb00ff00/*Aqui vai deixar transparente o fundo da sessao*/
+}
+
+
 
 
 .about_section .about_container .detail-box {

@@ -56,7 +56,7 @@
             <div class="top_nav">
               <ul class=" ">
                 <li class="">
-                  <a class="" href="">
+                  <a class="" href=""></a>
                     <!--<img src="images/telephone.png" alt="" />-->
                     <span> </span>
                   </a>
@@ -77,29 +77,33 @@
             </div>
             <div class="bottom_nav">
               <nav class="navbar navbar-expand-lg custom_nav-container">
+                <!--
+                <a class="navbar-brand brand_mobile" href="index.html">
+                  <img src="images/logo.png" alt="" />
+                </a>-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                     <ul class="navbar-nav  ">
-                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.html"> About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="games.html">Our Games</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="donate.html">Donate Us</a>
-                      </li>
                       <li class="nav-item active">
-                        <a class="nav-link" href="store.html">Store <span class="sr-only">(current)</span></a>
+                        <a class="nav-link menu-circle" href="index.html">Home <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link menu-circle" href="about.html"> About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link menu-circle" href="games.html">Our Games</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link menu-circle" href="donate.html">Donate</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link menu-circle" href="store.html">Store</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link menu-circle" href="contact.html">Contact Us</a>
                       </li>
                     </ul>
                   </div>
@@ -110,7 +114,72 @@
         </div>
       </div>
     </header>
-    <!-- end header section -->
+    
+    <style>
+      .menu-circle {
+      display: inline-block;
+      padding: 10px 22px;
+      border: 2px solid #1e90ff;
+      border-radius: 25px;
+      transition: border-color 0.5s, background 0.3s, color 0.3s;
+      margin: 0 6px;
+      }
+      .menu-circle:hover, .menu-circle:focus {
+      border-color: #1e90ff;
+      background: #fb00ff;
+      color: #fff !important;
+      text-decoration: none;
+      }
+      /*Sessao dos botoes mobile*/
+      @media (max-width: 768px) {
+      .menu-circle {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px 0;
+        margin: 8px 0;
+        font-size: 2em;
+        text-align: center;
+      }
+      .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(180deg, #000 50%, #1e90ff 100%);
+        z-index: 9999;
+        overflow-y: auto;
+        padding-top: 60px;
+      }
+      .navbar-toggler {/*icone*/
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 10000;
+      }
+      .header_section {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 60px;
+        z-index: 10001;
+        background: #1303f000;
+      }
+      .navbar-toggler-icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-image: url("images/menu.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+      }
+      }
+    </style>
+<!-- end header section -->
+
 
 
     <!-- Loja de Camisetas -->
@@ -256,48 +325,70 @@
         <!-- Produto 1 -->
         <div class="col-md-3 col-sm-6 product_card">
           <div class="card">
-            <img src="images/Camisetasv2.png" class="card-img-top" alt="Camiseta Decomposition">
+            <img src="images/Camisetas v5 - Saphire.png" class="card-img-top" alt="Camiseta Decomposition">
             <div class="card-body">
               <h5 class="card-title">Camiseta Logo Saphire Game Studio</h5>
-              <p class="card-text">Estampa exclusiva do jogo Decomposition. 100% algodão.</p>
+              <p class="card-text">Estampa exclusiva da Saphire Game Studio!</p>
               <p class="card-price">R$ 79,90</p>
-              <a href="https://wa.me/5511999999999?text=Quero%20comprar%20a%20Camiseta%20Decomposition" target="_blank" class="btn btn-primary">Comprar no Mercado Livre</a>
+              <a href="#" target="_blank" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
         <!-- Produto 2 -->
         <div class="col-md-3 col-sm-6 product_card">
           <div class="card">
-            <img src="images/Camisetasv5.png" class="card-img-top" alt="Camiseta Saphire Logo">
+            <img src="images/Camisetas v5.png" class="card-img-top" alt="Camiseta Saphire Logo">
             <div class="card-body">
               <h5 class="card-title">Camiseta Picape Alpha e Springs Montain</h5>
-              <p class="card-text">Camiseta com a temática do carro de Lucy. 100% algodão.</p>
+              <p class="card-text">Camiseta com a temática do carro e cidade de Lucy.</p>
               <p class="card-price">R$ 79,90</p>
-              <a href="https://wa.me/5511999999999?text=Quero%20comprar%20a%20Camiseta%20Saphire%20Logo" target="_blank" class="btn btn-primary">Comprar no Mercado Livre</a>
+              <a href="#" target="_blank" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
         <!-- Produto 3 -->
         <div class="col-md-3 col-sm-6 product_card">
           <div class="card">
-            <img src="images/Camisetasv3.png" class="card-img-top" alt="Camiseta Pixel Art">
+            <img src="images/Camisetas v5 - Simbolos.png" class="card-img-top" alt="Camiseta Pixel Art">
             <div class="card-body">
-              <h5 class="card-title">Camiseta Fita VHS com Triqueta Decomposition</h5>
-              <p class="card-text">Arte pixel exclusiva inspirada na temática central do Decomposition!</p>
+              <h5 class="card-title">Camiseta Fita VHS com símbolos Decomposition</h5>
+              <p class="card-text">Arte exclusiva inspirada na temática central do Decomposition!</p>
               <p class="card-price">R$ 79,90</p>
-              <a href="https://wa.me/5511999999999?text=Quero%20comprar%20a%20Camiseta%20Pixel%20Art" target="_blank" class="btn btn-primary">Comprar no Mercado Livre</a>
+              <a href="#" target="_blank" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
         <!-- Produto 4 -->
         <div class="col-md-3 col-sm-6 product_card">
           <div class="card">
-            <img src="images/Camisetasv1.png" class="card-img-top" alt="Camiseta Indie Dev">
+            <img src="images/Camisetas v5 - Artios Concept.png" class="card-img-top" alt="Camiseta Indie Dev">
             <div class="card-body">
-              <h5 class="card-title">Camiseta Fuck You Television</h5>
-              <p class="card-text">Para quem apoia o desenvolvimento indie nacional!</p>
+              <h5 class="card-title">Camiseta Artios, Concept Arte</h5>
+              <p class="card-text">Baseado em um personagem Boss do Decomposition!</p>
               <p class="card-price">R$ 79,90</p>
-              <a href="https://wa.me/5511999999999?text=Quero%20comprar%20a%20Camiseta%20Indie%20Dev" target="_blank" class="btn btn-primary">Comprar no Mercado Livre</a>
+              <a href="#" target="_blank" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 product_card">
+          <div class="card">
+            <img src="images/Camisetas v5 - Cernunos.png" class="card-img-top" alt="Camiseta Indie Dev">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Cernunos, concept arte</h5>
+              <p class="card-text">Baseado em um personagem Boss do Decomposition!</p>
+              <p class="card-price">R$ 79,90</p>
+              <a href="#" target="_blank" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 product_card">
+          <div class="card">
+            <img src="images/Render Eeve 5 - Sem Fundo.png" class="card-img-top" alt="Camiseta Indie Dev">
+            <div class="card-body">
+              <h5 class="card-title">Caneca temática Saphire Game Studio</h5>
+              <p class="card-text">A Caneca da Saphire é a sua nova companheira de café!</p>
+              <p class="card-price">R$ 79,90</p>
+              <a href="#" target="_blank" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
@@ -306,7 +397,7 @@
         <div class="col-12">
           <div class="info-extra">
             <h4>Como comprar?</h4>
-            <p>Escolha sua camiseta e clique em "Comprar no Mercado Livre". Você será redirecionado para a página da loja oficial no mercado livre.
+            <p>Escolha sua camiseta e clique em "Comprar". Você será redirecionado para a página da loja oficial no mercado livre.
                Informe tamanho, cor e endereço. Enviamos para todo e somente o Brasil! O frete pode variar conforme a região.</p>
             <p>Pagamento via PIX, cartão ou boleto. Dúvidas? Sugestões? Quer algum produto que não tem aqui? <a href="contact.html">Fale conosco pelo formulário de contato</a>.</p>
 

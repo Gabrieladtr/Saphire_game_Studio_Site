@@ -49,32 +49,16 @@
   <div class="hero_area">
      <!-- header section strats -->
      <header class="header_section">
-      <!-- header section strats 
-        <div id="google_translate_element" style="margin:20px;"></div>
-
-        <script type="text/javascript">
-          function googleTranslateElementInit() {
-            new google.translate.TranslateElement(
-              {pageLanguage: 'en', includedLanguages: 'en,es,fr,de,it,ja,zh-CN,ru,ar,hi,ko,tr,nl,sv,pl,pt'},
-              'google_translate_element'
-            );
-          }
-        </script>
-
-        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        -->
       <div class="container">
         <div class="header_nav">
           <a class="navbar-brand brand_desktop" href="index.html">
-            
             <!--<img src="images/logo.png" alt="" />-->
-
           </a>
           <div class="main_nav">
             <div class="top_nav">
               <ul class=" ">
                 <li class="">
-                  <a class="" href="">
+                  <a class="" href=""></a>
                     <!--<img src="images/telephone.png" alt="" />-->
                     <span> </span>
                   </a>
@@ -106,25 +90,24 @@
                   <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                     <ul class="navbar-nav  ">
                       <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link menu-circle" href="index.html">Home <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="about.html"> About Us</a>
+                        <a class="nav-link menu-circle" href="about.html"> About Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="games.html">Our Games</a>
+                        <a class="nav-link menu-circle" href="games.html">Our Games</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="donate.html">Donate Us</a>
+                        <a class="nav-link menu-circle" href="donate.html">Donate</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="store.html">Store</a>
+                        <a class="nav-link menu-circle" href="store.html">Store</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link menu-circle" href="contact.html">Contact Us</a>
                       </li>
                     </ul>
-                    
                   </div>
                 </div>
               </nav>
@@ -133,7 +116,72 @@
         </div>
       </div>
     </header>
-    <!-- end header section -->
+    
+    <style>
+      .menu-circle {
+      display: inline-block;
+      padding: 10px 22px;
+      border: 2px solid #1e90ff;
+      border-radius: 25px;
+      transition: border-color 0.5s, background 0.3s, color 0.3s;
+      margin: 0 6px;
+      }
+      .menu-circle:hover, .menu-circle:focus {
+      border-color: #1e90ff;
+      background: #fb00ff;
+      color: #fff !important;
+      text-decoration: none;
+      }
+      /*Sessao dos botoes mobile*/
+      @media (max-width: 768px) {
+      .menu-circle {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px 0;
+        margin: 8px 0;
+        font-size: 2em;
+        text-align: center;
+      }
+      .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(180deg, #000 50%, #1e90ff 100%);
+        z-index: 9999;
+        overflow-y: auto;
+        padding-top: 60px;
+      }
+      .navbar-toggler {/*icone*/
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 10000;
+      }
+      .header_section {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 60px;
+        z-index: 10001;
+        background: #1303f000;
+      }
+      .navbar-toggler-icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-image: url("images/menu.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+      }
+      }
+    </style>
+<!-- end header section -->
+
     
   <!-- about section -->
 
@@ -141,7 +189,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-10 ml-auto pr-0">
-          <div class="about_container about_index">
+          <div class="about_container about_donation">
             <div class="row">
               <div class="col-lg-5 col-md-5">
                 <div class="detail-box">
